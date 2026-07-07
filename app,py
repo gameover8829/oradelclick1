@@ -3,7 +3,7 @@ import pandas as pd
 import urllib.parse
 
 st.set_page_config(page_title="Ora del Click - Vendedores", layout="wide")
-st.title("⚡ Ora del Click: Panel de Ventas")
+st.title("Ora del Click: Panel de Ventas")
 
 # 1. Cargar datos (Conectado a tu Google Sheet publicado como CSV)
 SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQhKk4DCT5uIc9cWkxGFBBc-cMn14ATRDcKavNJPEfi2d3YYFXM1iLS92ujxoxVacgHrkl6RQUGPxH6/pub?output=csv"
