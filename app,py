@@ -10,7 +10,7 @@ SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQhKk4DCT5uIc9cWkxG
 df = pd.read_csv(SHEET_URL)
 
 # 2. Tabs para organizar
-tab1, tab2 = st.tabs(["🛒 Catálogo de Ofertas", "➕ Agregar Nueva Oferta"])
+tab1, tab2 = st.tabs(["🛒 Catálogo de Ofertas", "Agregar Nueva Oferta"])
 
 with tab1:
     st.subheader("Ofertas Activas")
